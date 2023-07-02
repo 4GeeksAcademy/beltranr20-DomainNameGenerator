@@ -1,8 +1,8 @@
 const generator = () => {
-  let pronoun = ["his", "their", "her", "they", "them"];
-  let adj = ["awful", "bright", "agreeable", "calm", "faithful"];
-  let nouns = ["tower", "beach", "ocean", "resturant", "ice cream"];
-  let end = [".com", ".net", ".edu", ".gov"];
+  let pronoun = ["his", "their", "her", "our", "my"];
+  let adj = ["inspiring", "dull", "arrogant", "honorable", "imaginative"];
+  let nouns = ["ball", "car", "watch", "tea", "pizza"];
+  let end = [".com", ".org", ".us", ".gov", ".co"];
 
   for (let a = 0; a < pronoun.length; a++) {
     for (let b = 0; b < adj.length; b++) {
